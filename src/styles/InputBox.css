@@ -1,0 +1,27 @@
+.parent-container {
+    height: 150px;
+    width: 600px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 16px;
+}
+
+.amount-container,
+.currency-container {
+    padding: 0 24px;
+    height: 100px;
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.amount-container input {
+    border: none;
+    outline: none;
+    font-size: 24px;
+}
