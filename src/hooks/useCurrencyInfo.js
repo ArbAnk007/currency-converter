@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
 function useCurrencyInfo(currency) {
-    const url = `https://cdn.jsdelivr.net/gh/fawazahmed0/currency-api@1/latest/currencies/${currency}.json`;
+    const url = `https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/${currency}.json`;
     const [data, setData] = useState({});
     useEffect( () => {
         fetch(url)
